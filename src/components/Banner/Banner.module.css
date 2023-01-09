@@ -26,18 +26,19 @@
 }
 
 .images > .photo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     border-radius: 50%;
-    height: 25vw;
+    bottom: 0;
+    height: 18vw;
+    position: absolute;
+    right: 50px;
+    width: 18vw;
 }
 
 .images > .coloredCircle {
     position: absolute;
     right: 7vw;
-    bottom: 2.2vw;
-    width: 25vw;
+    bottom: 0vw;
+    width: 22.5vw;
 }
 
 @media (max-width: 1100px) {    
@@ -59,6 +60,7 @@
     }
 
     .images > .photo {
+        height: 25vw;
         width: 25vw;
     }
 
@@ -93,6 +95,7 @@
     }
 
     .images > .photo {
+        height: 170px;
         width: 170px;
         transform: translate(5rem, 0px);
     }
