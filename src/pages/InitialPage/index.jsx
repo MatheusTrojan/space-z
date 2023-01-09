@@ -1,7 +1,12 @@
 import React from 'react'
+import Banner from 'components/Banner'
 
 export default function InitialPage() {
   return (
-    <h1>Space Z</h1>
+    <main>
+      <Banner />
+
+      <h1>Space Z</h1>
+    </main>
   )
 }
