@@ -1,7 +1,7 @@
-import styles from "./Post.module.css"
+import styles from "./PostCard.module.css"
 import React from 'react'
 
-export default function Post({ post }) {
+export default function PostCard({ post }) {
   return (
     <div className={styles.post}>
         
