@@ -13,7 +13,11 @@ export default function Post() {
         return post.id === Number(params.id);
     })
 
-    console.log(post)
+    if (!post) {
+        return <h1>Post não encontrado!</h1>
+    }
+
+    // console.log(post)
 
     return (
         <ModelPost
