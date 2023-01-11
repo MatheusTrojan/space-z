@@ -18,7 +18,6 @@ function AppRoutes() {
             <Route path="/" element={ <DefaultPage /> }>
                <Route index element={ <InitialPage/> } />
                <Route path="about" element={ <About/> } />
-               <Route path="posts/:id" element={ <Post /> } />
             </Route>
 
             {/* 
@@ -28,7 +27,7 @@ function AppRoutes() {
                      <InitialPage />
                   </DefaultPage>
             */}
-            
+            <Route path="posts/:id/*" element={ <Post /> } />
             <Route path="*" element={ <NotFound /> } />
          
          </Routes>
